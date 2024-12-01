@@ -1,4 +1,3 @@
-
 av
 einops
 flashy>=0.0.1
@@ -21,3 +20,4 @@ librosa
 gradio
 torchmetrics
 encodec
+audiocraft  # Add this line to ensure 'audiocraft' is installed
