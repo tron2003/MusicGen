@@ -1,23 +1,23 @@
 av
-einops
+einops>=0.4.1
 flashy>=0.0.1
 hydra-core>=1.1
 hydra_colorlog
 julius
-num2words
-numpy
+num2words>=0.5.10
+numpy>=1.21.0
 sentencepiece
 spacy==3.5.2
 torch>=2.0.0
 torchaudio>=2.0.0
-huggingface_hub
-tqdm
-streamlit
-transformers>=4.31.0  # need Encodec there.
-xformers
+huggingface_hub>=0.14.0
+tqdm>=4.64.0
+streamlit>=1.20.0
+transformers>=4.31.0
+xformers>=0.0.20
 demucs
-librosa
-gradio
-torchmetrics
-encodec
-audiocraft  # Add this line to ensure 'audiocraft' is installed
+librosa>=0.10.0
+gradio>=3.35.0
+torchmetrics>=0.11.0
+encodec>=0.1.1
+audiocraft
